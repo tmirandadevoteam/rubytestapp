@@ -48,6 +48,12 @@ gem "bootsnap", require: false
 # Add Webpack
 gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
 
+# Add bootstrap gem
+gem 'bootstrap', '~> 5.2.0'
+
+# Add jquery gem
+gem 'jquery-rails'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
